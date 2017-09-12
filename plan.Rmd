@@ -11,9 +11,17 @@ Perform an analysis of “data scientist” jobs listed on job boards and on the
 
 ###Plan:
 
-1. Use major job boards, such as LinkedIn, Indeed, Monster, etc. to search for data scientist jobs and employ web scraping tools to extract the skills listed in the job description, such as degree level, certificate, programming skills and working experience. Then we can analyze these data to find out the most common skills required. We can also consider some relevant covariates, such as time, job level (entry-level or higher level) and religion.
+1. Use major job boards, such as LinkedIn, Glassdoor, Indeed, Monster, etc. to search for data scientist jobs and employ web scraping tools to extract the skills listed in the job description, such as degree level, certificate, programming skills and working experience. Then we can analyze these data to find out the most common skills required. We can also consider some relevant covariates, such as time, job level (entry-level or higher level) and religion.
 
 2. As for the most unique skills asked for data scientists, I am not sure if it means the most unique skills among all the data scientists positions, or among all the jobs in the job boards. In the former case, we can find out the rarest skills required for data scientist positions by the employers.
 
-3.The company information can be obtained by the same process in point 1. We can categorize the companies looking for data scientist first and then analyze the characteristics of these companies.
+3. The company information can be obtained by the same process in point 1. We can categorize the companies looking for data scientist first and then analyze the characteristics of these companies.
 
+4. Tools:
+R package: `httr`, `rvest`
+
+5. Data Resources:
+Indeed API: https://www.indeed.com/publisher 
+Glassdoor API: https://www.glassdoor.com/developer/index.htm
+LindkedIn API:  https://developer.linkedin.com/#
+Monster API: http://partner.monster.com/developers
