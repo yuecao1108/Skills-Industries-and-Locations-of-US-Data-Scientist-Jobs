@@ -136,3 +136,14 @@ p + scale_y_continuous(labels = scales::percent, breaks = seq(0,1,0.1))
 
 ```
 
+
+
+```{r}
+
+#something might be useful
+l = sample(letters, size=10)
+l
+dput(l)
+
+
+```
