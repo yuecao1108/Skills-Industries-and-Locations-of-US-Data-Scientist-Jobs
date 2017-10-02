@@ -1,0 +1,37 @@
+---
+title: "main"
+author: "Yue Cao"
+output: html_document
+---
+
+```{r}
+library(rvest)
+library(stringr)
+library(dplyr)
+library(ggplot2)
+
+```
+
+```{r}
+url <- "https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=1"
+### if you want urls for all the pages
+# urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:7)
+fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
+
+
+urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:7)
+for(i in seq_along(urls)) {
+  url <- urls[i]
+  fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
+  job.urls <- paste0("https://stackoverflow.com",
+                     unname(unlist(sapply(x, function(x) if(x["class"]=="job-link") x["href"]))))
+  
+  Sys.sleep(3)
+}
+
+
+KEYWORDS <- c('Hadoop','Python','\\bSQL', 'NoSQL','\\bR\\b', 'Spark', 'SAS', 'Excel', 'AWS', 'Azure', 'Java', 'Tableau')
+
+
+
+```
