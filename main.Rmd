@@ -25,12 +25,27 @@ for(i in seq_along(urls)) {
   fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
   job.urls <- paste0("https://stackoverflow.com",
                      unname(unlist(sapply(x, function(x) if(x["class"]=="job-link") x["href"]))))
+
   
+
+  
+  link_clean<-joblink[which(is.na(joblink)==FALSE)]
+  title_clean<-title[which(is.na(joblink)==FALSE)]
+  company_clean<-company[which(is.na(joblink)==FALSE)]
+  location_clean<-location[which(is.na(joblink)==FALSE)]
+  company_clean<-str_replace_all(company_clean, "[\r\n|\n|\t|\r|,|/|<|>|\\.]|cmp", '')
+  
+  CombineInfo<-cbind(title_clean,company_clean,location_clean,link_clean)
+  BasicInfo<-rbind(BasicInfo,CombineInfo)
+  Sys.sleep(0.1)
   Sys.sleep(3)
 }
 
 
 KEYWORDS <- c('Hadoop','Python','\\bSQL', 'NoSQL','\\bR\\b', 'Spark', 'SAS', 'Excel', 'AWS', 'Azure', 'Java', 'Tableau')
+
+
+
 
 
 
