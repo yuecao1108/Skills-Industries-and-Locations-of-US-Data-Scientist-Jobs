@@ -13,39 +13,83 @@ library(ggplot2)
 ```
 
 ```{r}
-url <- "https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=1"
-### if you want urls for all the pages
-# urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:7)
-fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
+## stackoverflow  (credit to Stephen Cristiano)
+
+#KEYWORDS <- c('Hadoop','Python','\\bSQL', 'NoSQL','\\bR\\b', 'Spark', 'SAS', 'Excel', 'AWS', 'Azure', 'Java', 'Tableau')
 
 
-urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:7)
+urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:8)
+skill <- list()
+skillset = data.frame()
+skilltag <- rep(NA,5000)
+company <- rep(NA,5000)
+location <- rep(NA,5000)
+industry <- rep(NA,5000)
+description <- rep(NA,5000)
+n <- 0 # count the number of jobs
 for(i in seq_along(urls)) {
   url <- urls[i]
   fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
+  #session <- html_session(url)
+  x <- fields %>% html_nodes(".job-link") %>% html_attrs()
   job.urls <- paste0("https://stackoverflow.com",
                      unname(unlist(sapply(x, function(x) if(x["class"]=="job-link") x["href"]))))
-
+  job.urls <- unique(job.urls)
+  #job.names <- url %>% read_html() %>% html_nodes(".g-col10 .job-link") %>% html_text()
+  for ( j in job.urls){
+    page <- html_session(j)
+    add_company <- page %>% html_node(".employer") %>% html_text() %>% trimws()
+    if(is.na(add_company) | add_company %in% company){
+      next
+    }else{
+      n = n + 1
+      skill[[n]] <- page %>% html_nodes("#overview-items .no-tag-menu") %>% html_text() %>% trimws()
+      skilltag[n] <- paste(unlist(skill[[n]]),collapse = ", ")
+      #description[n] <-page %>% html_nodes(".description") %>% html_text()
+      company[n] <- add_company
+      loc <- page %>% html_nodes(".-description .-location") %>% html_text() %>% trimws() 
+      location[n] <- ifelse(length(loc)>0, gsub('- \n', "", loc),NA)
+      indus <- page %>% html_nodes("#overview-items .g-column+ .g-column .g-col:nth-child(1) .-value") %>% html_text() %>% trimws()
+      industry[n] <- ifelse(length(indus)>0,indus,NA)
+    }
+    Sys.sleep(2)
+  }
+  Sys.sleep(2)
   
-
-  
-  link_clean<-joblink[which(is.na(joblink)==FALSE)]
-  title_clean<-title[which(is.na(joblink)==FALSE)]
-  company_clean<-company[which(is.na(joblink)==FALSE)]
-  location_clean<-location[which(is.na(joblink)==FALSE)]
-  company_clean<-str_replace_all(company_clean, "[\r\n|\n|\t|\r|,|/|<|>|\\.]|cmp", '')
-  
-  CombineInfo<-cbind(title_clean,company_clean,location_clean,link_clean)
-  BasicInfo<-rbind(BasicInfo,CombineInfo)
-  Sys.sleep(0.1)
-  Sys.sleep(3)
 }
 
+# divide location as city and state
+location <- location[1:n]  %>%str_split(", ") 
+for(i in 1: n){
+  l <- length(location[[i]])
+  if(l > 2){
+    location[[i]] <- location[[i]][-(1:(l-2))]
+  }
+}
+location <- t(as.data.frame(location, stringsAsFactors = FALSE))
 
-KEYWORDS <- c('Hadoop','Python','\\bSQL', 'NoSQL','\\bR\\b', 'Spark', 'SAS', 'Excel', 'AWS', 'Azure', 'Java', 'Tableau')
+# seperate skills
+# keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
+#                  '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
+#                  '\\bJava\\b','\\bC+\\b', '\\bPerl\\b', '\\bPython\\b',
+#                  '\\bSQL\\b', '\\bNoSQL\\b',
+#                  '\\bTableau\\b', '\\bExcel\\b','machine learning')
+# keywords_display = lapply(keywords, function(x) gsub("[\\]b", "", x))
+# 
+#  keyword_truefalse = unlist(sapply(keywords, function(x) any(grep(x, skill[[i]], ignore.case = TRUE))))
+#   skillset = rbind(skillset, keyword_truefalse)
+#   colnames(skillset) <- unlist(keywords_display)
 
+#output 
+skillset <- as.data.frame(table(unlist(skill)))
+colnames(skillset) <- c("skill","freq")
 
+dat <- data.frame(company = company[1:n], city = location[,1], 
+                  state = location[,2], industry = industry[1:n],
+                  skilltag = skilltag[1:n])
 
+write.csv(dat, "dat.csv",row.names = F)
+write.csv(skillset, "skillset.csv",row.names = F)
 
 
 
