@@ -58,6 +58,8 @@ for(i in seq_along(urls)) {
   
 }
 
+colnames(get_keyword) = keywords_display
+
 # divide location as city and state
 location <- location[1:n]  %>%str_split(", ") 
 for(i in 1: n){
@@ -68,7 +70,7 @@ for(i in 1: n){
 }
 location <- t(as.data.frame(location, stringsAsFactors = FALSE))
 
-# seperate skills
+
 # keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
 #                  '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
 #                  '\\bJava\\b','\\bC+\\b', '\\bPerl\\b', '\\bPython\\b',
@@ -91,6 +93,72 @@ dat <- data.frame(company = company[1:n], city = location[,1],
 write.csv(dat, "dat.csv",row.names = F)
 write.csv(skillset, "skillset.csv",row.names = F)
 
+```
+
+
+```{r}
+# Dice
+
+urls <- paste0("https://www.dice.com/jobs/q-data_science-startPage-",1:70, "-jobs?searchid=9816474276503&stst=")
+keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
+                 '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
+                 '\\bJava\\b','\\bC+\\b', '\\bPerl\\b', '\\bPython\\b',
+                 '\\bSQL\\b', '\\bNoSQL\\b',
+                 '\\bTableau\\b', '\\bExcel\\b',
+                 'machine learning')
+keywords_display = unlist(lapply(keywords, function(x) gsub("[\\]b", "", x)))
+get_keyword = data.frame()
+
+company <- rep(NA,5000)
+location <- rep(NA,5000)
+n <- 0 # count the number of jobs
+
+for(i in seq_along(urls)) {
+  url <- urls[i]
+   session <- html_session(url)
+   job.names <- read_html(url) %>% html_nodes(".loggedInVisited span") %>% html_text()
+  for ( j in job.names){
+    page <- session %>% follow_link(j) %>% read_html()
+    add_company <- page %>% html_node(".dice-btn-link span") %>% html_text() %>% trimws()
+    if(is.na(add_company) | add_company %in% company){
+      next
+    }else{
+      n = n + 1
+      company[n] <- add_company
+      loc <- page %>% html_nodes(".location span") %>% html_text() %>% trimws() 
+      location[n] <- ifelse(length(loc[1])>0, loc[1],NA)
+      description <- page %>% html_nodes("#jobdescSec") 
+      if (length(description) > 0){
+      keyword_truefalse = sapply(keywords, function(x) any(grep(x, description, ignore.case = TRUE)))
+      get_keyword = rbind(get_keyword, keyword_truefalse)}
+    }
+    Sys.sleep(2)
+  }
+  Sys.sleep(2)
+  
+}
+# divide location as city and state
+location <- location[1:n]  %>%str_split(", ") 
+for(i in 1: n){
+  l <- length(location[[i]])
+  if(l > 2){
+    location[[i]] <- location[[i]][-(1:(l-2))]
+  }
+}
+location <- t(as.data.frame(location, stringsAsFactors = FALSE))
+
+dat <- data.frame(company = company[1:n], city = location[,1], 
+                  state = location[,2])
+
+write.csv(dat, "dice_dat.csv",row.names = F)
+write.csv(get_keyword, "dice_get_keyword.csv",row.names = F)
+
+dice_data <- cbind(dat, get_keyword)
+write.csv(dice_data, "dice_data.csv",row.names = F)
+
 
 
 ```
+
+
+
