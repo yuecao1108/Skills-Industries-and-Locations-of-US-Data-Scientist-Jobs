@@ -9,7 +9,7 @@ library(rvest)
 library(stringr)
 library(dplyr)
 library(ggplot2)
-
+library(maps)
 ```
 
   
@@ -200,8 +200,9 @@ p3
 
 ```
 
-Explotory Analysis
+Exploratory Analysis
 ```{r}
+
 stack_fulldata$source <- "Stackoverflow"
 d1 <- stack_fulldata[,-c(5,6)]
 
@@ -217,10 +218,61 @@ d_skills <- rbind(skills1,skills2)
 
 p4 <- ggplot(d_skills,
        aes(x = reorder(skill, percent), y = percent)) + 
-  geom_bar(position = "dodge", stat = "identity",width = 0.7) + 
-  coord_flip() + facet_grid( .~ source)+
+  geom_bar(aes(fill= source),position = "dodge", stat = "identity",width = 0.7) + 
+  coord_flip() + 
+  #facet_grid( .~ source)+
   labs(x="Skills", y="Frequency(%)", title="Skill Frequency for Data Scientist jobs in Nationwide")
-p4
+
+
+# geocode locations
+#get_geocode = geocode(paste(d$get_city, d$get_state))
+head(get_geocode)
+colnames(get_geocode) = c("get_lon","get_lat")
+#write.csv(get_geocode, "geocode.csv")
+# cbind geocode results
+d = cbind(d, get_geocode)
+
+
+# geocode locations
+get_geocode = geocode(paste(d$get_city, d$get_state))
+head(get_geocode)
+colnames(get_geocode) = c("get_lon","get_lat")
+#write.csv(get_geocode, "geocode.csv")
+# cbind geocode results
+d = cbind(d, get_geocode)
+
+
+# load united states map
+us_map = map_data("state") %>%
+  setNames(c("long","lat","group","order","state","subregion"))
+
+# remove NA 
+geo_sub = d %>% 
+  filter(!is.na(get_lat)) %>%
+  filter(!is.na(get_state))
+
+state_count = d %>%
+  group_by(get_state, get_city, get_lon, get_lat) %>%
+  summarise(count = n()) %>% drop_na() %>%
+  setNames(c("state_code","city_name", "get_lon","get_lat","count")) %>%
+  as.data.frame()
+
+state_count2 = state_count %>%
+  merge(census, by = "state_code")
+
+g7 = ggplot(us_map, aes(x = long, y = lat, group = group)) +
+  geom_polygon(fill = "black", color = "white") + theme_bw() +
+  geom_point(data = state_count2, color = "red",
+             aes(x = get_lon, y = get_lat, size = count), 
+             inherit.aes = FALSE, fill = "red", shape = 21, alpha = 0.5) +
+  scale_size_area(max_size = 16) + transparent_legend +
+  theme(legend.position = c(0.9, 0.25),
+        legend.key.size = unit(0.3,"cm"),
+        legend.direction = "vertical",
+        legend.text = element_text(size =8))+
+  ylab("Latitude") + xlab("Longitude") +
+  ggtitle("U.S map and Locations of Job Listings")
+
 ```
 
 
