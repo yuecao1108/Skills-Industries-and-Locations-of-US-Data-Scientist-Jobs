@@ -12,21 +12,24 @@ library(ggplot2)
 
 ```
 
+  
+Data on stackoverflow.com
 ```{r}
-## stackoverflow  (credit to Stephen Cristiano)
+## stackoverflow  
+## partial codes are credit to Stephen Cristiano, jobs_scrape.R, (https://slack-files.com/T6TTWE3G8-F75420VQD-7f4696035e)
 
-#KEYWORDS <- c('Hadoop','Python','\\bSQL', 'NoSQL','\\bR\\b', 'Spark', 'SAS', 'Excel', 'AWS', 'Azure', 'Java', 'Tableau')
 
 
 urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:8)
 skill <- list()
-skillset = data.frame()
 skilltag <- rep(NA,5000)
 company <- rep(NA,5000)
 location <- rep(NA,5000)
 industry <- rep(NA,5000)
 description <- rep(NA,5000)
+jobtitle <- rep(NA, 5000)
 n <- 0 # count the number of jobs
+
 for(i in seq_along(urls)) {
   url <- urls[i]
   fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
@@ -45,12 +48,17 @@ for(i in seq_along(urls)) {
       n = n + 1
       skill[[n]] <- page %>% html_nodes("#overview-items .no-tag-menu") %>% html_text() %>% trimws()
       skilltag[n] <- paste(unlist(skill[[n]]),collapse = ", ")
-      #description[n] <-page %>% html_nodes(".description") %>% html_text()
+      
       company[n] <- add_company
+      jobtitle[n] <- page %>% html_node(".title") %>% html_text() %>% trimws() 
       loc <- page %>% html_nodes(".-description .-location") %>% html_text() %>% trimws() 
       location[n] <- ifelse(length(loc)>0, gsub('- \n', "", loc),NA)
       indus <- page %>% html_nodes("#overview-items .g-column+ .g-column .g-col:nth-child(1) .-value") %>% html_text() %>% trimws()
       industry[n] <- ifelse(length(indus)>0,indus,NA)
+      description[n] <-page %>% html_nodes(".description") 
+      if (length(description) > 0){
+          keyword_truefalse = sapply(keywords, function(x) any(grep(x, description, ignore.case = TRUE)))
+          get_keyword = rbind(get_keyword, keyword_truefalse)}
     }
     Sys.sleep(2)
   }
@@ -58,7 +66,6 @@ for(i in seq_along(urls)) {
   
 }
 
-colnames(get_keyword) = keywords_display
 
 # divide location as city and state
 location <- location[1:n]  %>%str_split(", ") 
@@ -71,44 +78,58 @@ for(i in 1: n){
 location <- t(as.data.frame(location, stringsAsFactors = FALSE))
 
 
-# keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
-#                  '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
-#                  '\\bJava\\b','\\bC+\\b', '\\bPerl\\b', '\\bPython\\b',
-#                  '\\bSQL\\b', '\\bNoSQL\\b',
-#                  '\\bTableau\\b', '\\bExcel\\b','machine learning')
-# keywords_display = lapply(keywords, function(x) gsub("[\\]b", "", x))
-# 
-#  keyword_truefalse = unlist(sapply(keywords, function(x) any(grep(x, skill[[i]], ignore.case = TRUE))))
-#   skillset = rbind(skillset, keyword_truefalse)
-#   colnames(skillset) <- unlist(keywords_display)
 
 #output 
 skillset <- as.data.frame(table(unlist(skill)))
 colnames(skillset) <- c("skill","freq")
 
-dat <- data.frame(company = company[1:n], city = location[,1], 
-                  state = location[,2], industry = industry[1:n],
+dat <- data.frame(jobtitle = jobtitle[1:n], company = company[1:n],
+                  city = location[,1], state = location[,2], industry = industry[1:n],
                   skilltag = skilltag[1:n])
 
 write.csv(dat, "dat.csv",row.names = F)
 write.csv(skillset, "skillset.csv",row.names = F)
 
+
+##############################################################################
+## Visulization
+#skilltag
+stack_skillset <- read.csv("~/Desktop/advdatascience/data/7stack_skillset.csv")
+stack_skillset$percent <- stack_skillset$freq / nrow(stack_fulldata) *100
+stack_skillset <- stack_skillset[order(stack_skillset$freq,decreasing = T),]
+stack_skillset_top15 <- stack_skillset[1:15,]
+
+ p1 <- ggplot(stack_skillset_top15, aes(reorder(skill, percent), percent)) + geom_bar(stat="identity") +
+   labs(x = 'Skill', y = 'Occurrences (%)', title = c('Skill occurrences(%) for data science jobs on Stackoverflow.com')) 
+ p1 + coord_flip() 
+
+ #full data
+ stack_fulldata <- read.csv("~/Desktop/advdatascience/data/7stack_full.csv")
+ stack_skill = stack_fulldata %>% select(Hadoop:Amazon.Web.Service)
+
+skill_count = apply(stack_skill, 2, sum)
+skills1 = data.frame(skill = names(skill_count), count = skill_count)
+skills1 = arrange(skills,count)
+skills1$percent = skills1$count / nrow(stack_skill) *100
+p2 <- ggplot(skills1,
+       aes(x = reorder(skill, percent), y = percent)) + 
+  geom_bar(position = "dodge", stat = "identity") + 
+  coord_flip() +
+  ylab("Frequency(%)") + xlab("Skills") + 
+  theme_bw() + ggtitle("stackoverflow")
+
 ```
 
 
+Data on dice.com
 ```{r}
 # Dice
 
-urls <- paste0("https://www.dice.com/jobs/q-data_science-startPage-",1:70, "-jobs?searchid=9816474276503&stst=")
-keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
-                 '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
-                 '\\bJava\\b','\\bC+\\b', '\\bPerl\\b', '\\bPython\\b',
-                 '\\bSQL\\b', '\\bNoSQL\\b',
-                 '\\bTableau\\b', '\\bExcel\\b',
-                 'machine learning')
-keywords_display = unlist(lapply(keywords, function(x) gsub("[\\]b", "", x)))
-get_keyword = data.frame()
+urls <- paste0("https://www.dice.com/jobs/q-data_science-startPage-",1:40, "-jobs?searchid=9816474276503&stst=")
+keywords <- c('Hadoop','Python','\\bSQL', 'NoSQL','\\bR\\b', 'Spark', 'SAS', 'Excel', 'amazon web service', 'Azure', 'Java', 'Tableau', '\\blinux')
+keywords_display <- c('Hadoop','Python','SQL', 'NoSQL','R', 'Spark', 'SAS', 'Excel', 'amazon web service', 'Azure', 'Java', 'Tableau', 'linux')
 
+get_keyword = data.frame()
 company <- rep(NA,5000)
 location <- rep(NA,5000)
 n <- 0 # count the number of jobs
@@ -116,9 +137,11 @@ n <- 0 # count the number of jobs
 for(i in seq_along(urls)) {
   url <- urls[i]
    session <- html_session(url)
-   job.names <- read_html(url) %>% html_nodes(".loggedInVisited span") %>% html_text()
+   job.names <- read_html(url) %>% html_nodes(".loggedInVisited span") %>% html_text() %>% trimws()
   for ( j in job.names){
-    page <- session %>% follow_link(j) %>% read_html()
+    
+    tryCatch({
+      page <- session %>% follow_link(j) %>% read_html()
     add_company <- page %>% html_node(".dice-btn-link span") %>% html_text() %>% trimws()
     if(is.na(add_company) | add_company %in% company){
       next
@@ -131,11 +154,11 @@ for(i in seq_along(urls)) {
       if (length(description) > 0){
       keyword_truefalse = sapply(keywords, function(x) any(grep(x, description, ignore.case = TRUE)))
       get_keyword = rbind(get_keyword, keyword_truefalse)}
-    }
+      }
+    }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
     Sys.sleep(2)
-  }
+    }
   Sys.sleep(2)
-  
 }
 # divide location as city and state
 location <- location[1:n]  %>%str_split(", ") 
@@ -158,7 +181,50 @@ write.csv(dice_data, "dice_data.csv",row.names = F)
 
 
 
+
+##############################################################################
+## Visulization
+ dice_fulldata <- read.csv("~/Desktop/advdatascience/data/dice/4dice_fulldata.csv")
+ dice_skill = dice_fulldata %>% select(Hadoop:Amazon.Web.Service)
+skill_count = apply(dice_skill, 2, sum)
+skills2 = data.frame(skill = names(skill_count), count = skill_count)
+skills2 = arrange(skills2,count)
+skills2$percent = skills2$count / nrow(dice_skill) *100
+p3 <- ggplot(skills2,
+       aes(x = reorder(skill, percent), y = percent)) + 
+  geom_bar(position = "dodge", stat = "identity") + 
+  coord_flip() +
+  ylab("Frequency(%)") + xlab("Skills") + 
+  theme_bw()
+p3
+
 ```
+
+Explotory Analysis
+```{r}
+stack_fulldata$source <- "Stackoverflow"
+d1 <- stack_fulldata[,-c(5,6)]
+
+dice_fulldata$source <-"Dice"
+d2 <- dice_fulldata
+
+d <- rbind(d1,d2)
+
+skills1$source <- "Stackoverflow"
+skills2$source <- "Dice"
+d_skills <- rbind(skills1,skills2)
+
+
+p4 <- ggplot(d_skills,
+       aes(x = reorder(skill, percent), y = percent)) + 
+  geom_bar(position = "dodge", stat = "identity",width = 0.7) + 
+  coord_flip() + facet_grid( .~ source)+
+  labs(x="Skills", y="Frequency(%)", title="Skill Frequency for Data Scientist jobs in Nationwide")
+p4
+```
+
+
+
 
 
 
