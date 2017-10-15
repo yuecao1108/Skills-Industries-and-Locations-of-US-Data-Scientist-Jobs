@@ -1,0 +1,443 @@
+---
+title: "main"
+author: "Yue Cao"
+output: html_document
+---
+
+```{r}
+library(rvest)
+library(stringr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+library(dendextend)
+library(xtable)
+library(cowplot)
+
+```
+
+  
+Data on stackoverflow.com
+```{r}
+## stackoverflow  
+## partial codes are credit to Stephen Cristiano, jobs_scrape.R, (https://slack-files.com/T6TTWE3G8-F75420VQD-7f4696035e)
+
+
+urls <- paste0("https://stackoverflow.com/jobs?sort=i&q=Data+Science&pg=", 1:8)
+skill <- list()
+skilltag <- rep(NA,5000)
+company <- rep(NA,5000)
+location <- rep(NA,5000)
+industry <- rep(NA,5000)
+jobtitle <- rep(NA, 5000)
+n <- 0 # count the number of jobs
+keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
+              '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
+              '\\bJava\\b', '\\bPerl\\b', '\\bPython\\b',
+              '\\bSQL\\b', '\\bNoSQL\\b','\\bTableau\\b', '\\bExcel\\b',
+              'Machine Learning','Amazon Web Service' )
+keywords_display = unlist(lapply(keywords, function(x) gsub("[\\]b", "", x)))
+
+get_keyword = data.frame()
+
+for(i in seq_along(urls)) {
+  url <- urls[i]
+  fields <- url %>% read_html() %>% html_nodes(xpath='//*[contains(concat( " ", @class, " " ), concat( " ", "-job-item", " " ))]')
+  #session <- html_session(url)
+  x <- fields %>% html_nodes(".job-link") %>% html_attrs()
+  job.urls <- paste0("https://stackoverflow.com",
+                     unname(unlist(sapply(x, function(x) if(x["class"]=="job-link") x["href"]))))
+  job.urls <- unique(job.urls)
+  #job.names <- url %>% read_html() %>% html_nodes(".g-col10 .job-link") %>% html_text()
+  for ( j in job.urls){
+    tryCatch({
+    page <- html_session(j)
+    add_company <- page %>% html_node(".employer") %>% html_text() %>% trimws()
+    if(is.na(add_company) | add_company %in% company){
+      next
+    }else{
+      n = n + 1
+      skill[[n]] <- page %>% html_nodes("#overview-items .no-tag-menu") %>% html_text() %>% trimws()
+      skilltag[n] <- paste(unlist(skill[[n]]),collapse = ", ")
+      company[n] <- add_company
+      jobtitle[n] <- page %>% html_node(".title") %>% html_text() %>% trimws() 
+      loc <- page %>% html_nodes(".-description .-location") %>% html_text() %>% trimws() 
+      location[n] <- ifelse(length(loc)>0, gsub('- \n', "", loc),NA)
+      indus <- page %>% html_nodes("#overview-items .g-column+ .g-column .g-col:nth-child(1) .-value") %>% html_text() %>% trimws()
+      industry[n] <- ifelse(length(indus)>0,indus,NA)
+      description <-page %>% html_nodes(".-technologies , .-job-description") 
+         if (length(description)>0){
+        keyword_truefalse = sapply(keywords, function(x) any(grep(x, description, ignore.case = TRUE)))
+        get_keyword = rbind(get_keyword, keyword_truefalse)}
+        else{get_keyword = rbind(get_keyword, rep(NA, length(keywords)))}
+        }
+    }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")}) #end tryCatch
+    Sys.sleep(2)
+  }
+  Sys.sleep(2)
+  
+}
+
+
+
+# divide location as city and state
+location <- location[1:n]  %>%str_split(", ") 
+for(i in 1: n){
+  l <- length(location[[i]])
+  if(l > 2){
+    location[[i]] <- location[[i]][-(1:(l-2))]
+  }
+}
+location <- t(as.data.frame(location, stringsAsFactors = FALSE))
+
+
+
+#output 
+skillset <- as.data.frame(table(unlist(skill)))
+colnames(skillset) <- c("skill","freq")
+
+ dat <- data.frame(jobtitle = jobtitle[1:n], company = company[1:n],
+                   city = location[,1], state = location[,2], industry = industry[1:n],
+                   skilltag = skilltag[1:n])
+# write.csv(skillset, "stack_skillset.csv", row.names = F)
+
+
+colnames(get_keyword) <- keywords_display 
+stack_data <- cbind(dat, get_keyword)
+write.csv(stack_data, "stack_full.csv",row.names = F)
+
+##############################################################################
+## Visulization
+# #skilltag
+# stack_skillset <- read.csv("~/Desktop/advdatascience/data/7stack_skillset.csv")
+# stack_skillset$percent <- stack_skillset$freq / nrow(stack_fulldata) *100
+# stack_skillset <- stack_skillset[order(stack_skillset$freq,decreasing = T),]
+# stack_skillset_top15 <- stack_skillset[1:15,]
+# 
+#  p1 <- ggplot(stack_skillset_top15, aes(reorder(skill, percent), percent)) + geom_bar(stat="identity") +
+#    labs(x = 'Skill', y = 'Occurrences (%)', title = c('Skill occurrences(%) for data science jobs on Stackoverflow.com')) 
+#  p1 + coord_flip() 
+# 
+#  #full data
+#  stack_fulldata <- read.csv("~/Desktop/advdatascience/data/7stack_full.csv")
+#  stack_skill = stack_fulldata %>% select(Hadoop:Amazon.Web.Service)
+# 
+# skill_count = apply(stack_skill, 2, sum)
+# skills1 = data.frame(skill = names(skill_count), count = skill_count)
+# skills1 = arrange(skills,count)
+# skills1$percent = skills1$count / nrow(stack_skill) *100
+# p2 <- ggplot(skills1,
+#        aes(x = reorder(skill, percent), y = percent)) + 
+#   geom_bar(position = "dodge", stat = "identity") + 
+#   coord_flip() +
+#   ylab("Frequency(%)") + xlab("Skills") + 
+#   theme_bw() + ggtitle("stackoverflow")
+
+```
+
+
+Data on dice.com
+```{r}
+# Dice
+
+urls <- paste0("https://www.dice.com/jobs/q-data_science-startPage-",1:40, "-jobs?searchid=9816474276503&stst=")
+
+keywords <- c('\\bHadoop\\b', '\\bSpark\\b', 
+              '\\bR\\b', '\\bSAS\\b', '\\bStata\\b', 
+              '\\bJava\\b', '\\bPerl\\b', '\\bPython\\b',
+              '\\bSQL\\b', '\\bNoSQL\\b','\\bTableau\\b', '\\bExcel\\b',
+              'Machine Learning','Amazon Web Service' )
+keywords_display = unlist(lapply(keywords, function(x) gsub("[\\]b", "", x)))
+get_keyword = data.frame()
+company <- rep(NA,5000)
+location <- rep(NA,5000)
+jobtitle <- rep(NA, 5000)
+n <- 0 # count the number of jobs
+
+for(i in seq_along(urls)) {
+  url <- urls[i]
+  session <- html_session(url)
+  link <- session %>% html_nodes(".dice-btn-link.loggedInVisited") %>% html_attr("href")
+  link <- paste0('https://www.dice.com', link)
+  link <- unique(link)
+  for (j in link){
+    tryCatch({
+      page <- html_session(j)
+      add_company <- page %>% html_node(".dice-btn-link span") %>% html_text() %>% trimws()
+      if(is.na(add_company) | add_company %in% company){
+        next
+      }else{
+        n = n + 1
+        company[n] <- add_company
+        loc <- page %>% html_nodes(".location span") %>% html_text() %>% trimws() 
+        location[n] <- ifelse(length(loc[1])>0, loc[1],NA)
+        jobtitle[n] <- page %>% html_node("#jt") %>% html_text() %>% trimws() 
+        description <- page %>% html_nodes("#jobdescSec") 
+         if (length(description)>0){
+        keyword_truefalse = sapply(keywords, function(x) any(grep(x, description, ignore.case = TRUE)))
+        get_keyword = rbind(get_keyword, keyword_truefalse)}
+        else{get_keyword = rbind(get_keyword, rep(NA, length(keywords)))}
+        }
+    }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")}) #end tryCatch
+    Sys.sleep(2)
+  }  
+Sys.sleep(2)
+}
+
+# divide location as city and state
+location <- location[1:n]  %>%str_split(", ") 
+for(i in 1: n){
+  l <- length(location[[i]])
+  if(l > 2){
+    location[[i]] <- location[[i]][-(1:(l-2))]
+  }
+}
+location <- t(as.data.frame(location, stringsAsFactors = FALSE))
+
+dat <- data.frame(jobtitle = jobtitle[1:n], company = company[1:n], city = location[,1], 
+                  state = location[,2])
+
+#write.csv(dat, "dice_dat.csv",row.names = F)
+colnames(get_keyword) <- keywords_display 
+#write.csv(get_keyword, "dice_get_keyword.csv",row.names = F)
+
+dice_data <- cbind(dat, get_keyword)
+write.csv(dice_data, "dice_fulldata.csv",row.names = F)
+
+
+
+
+##############################################################################
+## Visulization
+#  dice_fulldata <- read.csv("~/Desktop/advdatascience/data/dice/4dice_fulldata.csv")
+# 
+# p3 <- ggplot(skills2,
+#        aes(x = reorder(skill, percent), y = percent)) + 
+#   geom_bar(position = "dodge", stat = "identity") + 
+#   coord_flip() +
+#   ylab("Frequency(%)") + xlab("Skills") + 
+#   theme_bw()
+# p3
+
+```
+
+
+Data from glassdoor.com
+```{r}
+urls <- paste0("https://www.glassdoor.com/Job/data-science-jobs-SRCH_KO0,12_IP",1:40, ".htm?jobType=fulltime")
+
+get_keyword = data.frame()
+company <- rep(NA,5000)
+location <- rep(NA,5000)
+jobtitle <- rep(NA, 5000)
+industry <- rep(NA, 5000)
+size <- rep(NA, 5000)
+n <- 0 # count the number of jobs
+
+for(i in seq_along(urls)) {
+  url <- urls[i]
+  session <- html_session(url)
+  link <- session %>% html_nodes(".flexbox .jobLink") %>% html_attr("href")
+  link <- paste0('https://www.glassdoor.com', link)
+  link <- unique(link)
+  for (j in link){
+    tryCatch({
+      page <- html_session(j)
+      add_company <- page %>% html_node(".padRtSm") %>% html_text() %>% trimws()
+      if(is.na(add_company) | add_company %in% company){
+        next
+      }else{
+        n = n + 1
+        company[n] <- add_company
+        loc <- page %>% html_node(".subtle") %>% html_text() %>% trimws() 
+        location[n] <- ifelse(length(loc)>0, substr(loc, 4, nchar(loc)),NA)
+        jobtitle[n] <- page %>% html_node("#HeroHeaderModule .strong") %>% html_text() %>% trimws() 
+        read <-  j %>% readLines(warn = FALSE)
+        extract_industry = grep("'sector' :", read, value = TRUE)
+        industry[n] <- ifelse(length(extract_industry)>0,
+                              as.character(strsplit(extract_industry,"[\"]")[[1]][2]), NA)
+        extract_size <- grep("'size' :", read, value = TRUE)
+        size[n] <- ifelse(length(extract_size)>0,
+                          strsplit(extract_size,"[\"]")[[1]][2], NA)
+        description <- page %>% html_nodes(".desc") 
+        if (length(description)>0){
+        keyword_truefalse = sapply(keywords, function(x) any(grep(x, description, ignore.case = TRUE)))
+        get_keyword = rbind(get_keyword, keyword_truefalse)}
+        else{get_keyword = rbind(get_keyword, rep(NA, length(keywords)))}
+        }
+    }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")}) #end tryCatch
+    Sys.sleep(2)
+  }  
+  Sys.sleep(2)
+}
+
+# divide location as city and state
+location <- location[1:n]  %>%str_split(", ") 
+for(i in 1: n){
+  l <- length(location[[i]])
+  if(l > 2){
+    location[[i]] <- location[[i]][-(1:(l-2))]
+  }
+}
+location <- t(as.data.frame(location, stringsAsFactors = FALSE))
+
+dat <- data.frame(jobtitle = jobtitle[1:n], company = company[1:n], 
+                  industry = industry[1:n], size = size[1:n],
+                  city = location[,1], state = location[,2])
+
+
+#write.csv(dat, "/users/ycao/advdatasci/data/glass_dat.csv",row.names = F)
+colnames(get_keyword) <- keywords_display 
+#write.csv(get_keyword, "/users/ycao/advdatasci/data/glass_get_keyword.csv",row.names = F)
+
+glass_data <- cbind(dat, get_keyword)
+write.csv(glass_data, "glass_fulldata.csv",row.names = F)
+
+
+
+
+
+
+```
+
+
+
+
+Data Cleaning and Exploratory Analysis
+```{r}
+
+#  stack_fulldata <- read.csv("~/Desktop/advdatascience/data/7stack_full.csv")
+#  dice_fulldata <- read.csv("~/Desktop/advdatascience/data/dice/4dice_fulldata.csv")
+# glass_fulldata <- read.csv("~/Desktop/advdatascience/data/glass/4glass_fulldata.csv")
+
+stack_fulldata <- read.csv("stack_full.csv")
+ dice_fulldata <- read.csv("dice_fulldata.csv")
+glass_fulldata <- read.csv("glass_fulldata.csv")
+
+
+stack_fulldata$source <- "Stackoverflow"
+stack_fulldata <- stack_fulldata[complete.cases(stack_fulldata),] #remove rows containing NA
+d1 <- stack_fulldata[,-c(6)] #delete skilltag
+ stack_skill = stack_fulldata %>% select(Hadoop:Amazon.Web.Service)
+skill_count = apply(stack_skill, 2, sum)
+skills1 = data.frame(skill = names(skill_count), count = skill_count)
+skills1 = arrange(skills1,count)
+skills1$percent = skills1$count / nrow(stack_skill) *100
+
+
+dice_fulldata$source <-"Dice"
+dice_fulldata <- dice_fulldata[complete.cases(dice_fulldata),]
+d2 <- dice_fulldata
+dice_skill = dice_fulldata %>% select(Hadoop:Amazon.Web.Service)
+skill_count = apply(dice_skill, 2, sum)
+skills2 = data.frame(skill = names(skill_count), count = skill_count)
+skills2 = arrange(skills2,count)
+skills2$percent = skills2$count / nrow(dice_skill) *100
+
+glass_fulldata$source <- "Glassdoor"
+glass_fulldata <- glass_fulldata[complete.cases(glass_fulldata),]
+# clean size
+glass_fulldata$size <- gsub("--1","+",glass_fulldata$size)
+glass_fulldata <- glass_fulldata[which(glass_fulldata$size!="-1-0"),]
+# clean industry
+glass_fulldata$industry <- gsub("&amp;","&",glass_fulldata$industry)
+
+d3 <- glass_fulldata
+ glass_skill = glass_fulldata %>% select(Hadoop:Amazon.Web.Service)
+skill_count = apply(glass_skill, 2, sum)
+skills3 = data.frame(skill = names(skill_count), count = skill_count)
+skills3 = arrange(skills3,count)
+skills3$percent = skills3$count / nrow(glass_skill) *100
+
+
+d1 <- d1[!duplicated(d1),] # remove duplicated data
+d2 <- d2[!duplicated(d2),] # remove duplicated data
+d3 <- d3[!duplicated(d3),] # remove duplicated data
+
+# compare data scientist skills on Dice, Stackoverflow and Glassdoor
+skills1$source <- "Stackoverflow" 
+skills2$source <- "Dice"
+skills3$source <- "Glassdoor"
+d_skills <- rbind(skills1,skills2,skills3)
+p4 <- ggplot(d_skills,
+       aes(x = reorder(skill, percent), y = percent)) + 
+  geom_bar(aes(fill= source),position = "dodge", stat = "identity",width = 0.7) + 
+  coord_flip() + 
+  facet_grid( .~ source)+
+  labs(x="Skills", y="Frequency(%)", title="Skill Frequency for Data Scientist jobs")
+p4
+
+skills1 <- arrange(skills1, skill)
+skills2 <- arrange(skills2, skill)
+skills3 <- arrange(skills3, skill)
+
+totalcount <- data.frame(skill = skills1$skill, count = skills1$count+skills2$count+skills3$count)
+                    
+totalcount$percent = totalcount$count/sum(nrow(stack_fulldata)+nrow(glass_fulldata)+nrow(dice_fulldata)) *100
+totalcount <- arrange(totalcount, desc(percent))
+tab1 <- xtable(totalcount[1:5,])
+print(tab1, type="latex")
+
+
+dat <- rbind(stack_fulldata[,c(1:4,7:21)],glass_fulldata[,c(1:2,5:21)],dice_fulldata) #1043 obs
+# skill frequency
+dat$location <- paste0(dat$city, ", ", dat$state)
+jobcount <- dat %>% group_by(location) %>% tally()
+jobcount <- jobcount %>% arrange(desc(n))
+top10_jobcount <- jobcount[1:10,]
+p5 <- ggplot(top10_jobcount,
+       aes(x = reorder(location, n), y = n)) + 
+  geom_bar(aes(fill=location),position = "dodge", stat = "identity",width = 0.7) + 
+  coord_flip() + 
+  #facet_grid( .~ source)+
+  labs(y="Location", x="Number of jobs", title="Number of Data Scientist jobs in Different Locations") +
+ theme(legend.position="none")
+p5  
+
+# industry
+industrycount <- glass_fulldata %>% group_by(industry) %>% tally()
+industrycount <- industrycount %>% arrange(desc(n))
+top10_industrycount <- industrycount[1:10,]
+p6 <- ggplot(top10_industrycount,
+       aes(x = reorder(industry, n), y = n)) + 
+  geom_bar(aes(fill=industry),position = "dodge", stat = "identity",width = 0.7) + 
+  coord_flip() + 
+  #facet_grid( .~ source)+
+  labs(y="Industry", x="Number of jobs", title="Number of Data Scientist Jobs in Different Industries") + theme(legend.position="none")
+p6  
+
+# statisical model 
+# Hierarchical Clustering on industry types
+hdat <- glass_fulldata[,c(3,7:20)]
+
+ # hdat <-  hdat %>% group_by(industry) %>%
+ #   summarise_each(hadoop = sum(Hadoop), spark = sum(Spark), r = sum(R), sas = sum(SAS),
+ #             stata = sum(Stata), java= sum(Java), perl = sum(Perl), python = sum(Python),
+ #             sql=sum(SQL), noSql=sum(NoSQL), tableau=sum(Tableau), excel=sum(Excel),
+ #             machine.learning=sum(Machine.Learning),
+ #             amazon.web.service = sum(Amazon.Web.Service)
+ #             )
+#glass_fulldata %>% filter(industry=="Business Services") %>% summarise(hadoop = sum(Hadoop))
+ 
+hdat2 <- aggregate(hdat[,-1], by=list(hdat$industry), FUN=sum)
+hrowname <- hdat2$Group.1
+rownames(hdat2) <- hrowname
+hdist <- dist(scale(hdat2[,-1]))
+hfit  <- hclust(hdist)
+dend <- as.dendrogram(hfit)
+#set margins
+par(mar = c(5,5,5,15))
+# plot + color the dend's branches before, based on 3 clusters:
+ dend %>% color_branches(k=4) %>% color_labels(k=4) %>% plot(horiz=T, main = "Hierarchical Clustering for Industry Types Based on Skill Needs")
+# add cut line
+abline(v = heights_per_k.dendrogram(dend)["4"] + .6, lwd = 2, lty = 2, col = "blue")
+
+
+save.image(file = "jobdata.RData") #save all R objects in the workspace
+```
+
+
+
+
+
+
