@@ -1,0 +1,471 @@
+"jobtitle","company","industry","size","city","state","Hadoop","Spark","R","SAS","Stata","Java","Perl","Python","SQL","NoSQL","Tableau","Excel","Machine Learning","Amazon Web Service"
+"Advisor, Data Science","Precima","Business Services","51-200","Chicago","IL",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Sr Data Science/Software Engineer","T. Rowe Price","Finance","5001-10000","Baltimore","MD",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+"Data Scientist","Live Oak Bank","Finance","201-500","United States","United States",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Invoca","Business Services","51-200","Santa Barbara","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Eventbrite","Information Technology","501-1000","Nashville","TN",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Engineer","Smile Direct Club","Health Care","501-1000","Nashville","TN",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","The Washington Post","Media","1001-5000","Washington","DC",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Lead","The Distinguished Programs Group","Insurance","51-200","New York","NY",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Scientist","eBay Inc.",NA,"10000--1","San Jose","CA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science-Machine Learning Specialist","ManTech","Information Technology","5001-10000","Alexandria","VA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Rise Interactive","Business Services","201-500","Chicago","IL",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
+"Director, Data Science","Roblox","Information Technology","201-500","San Mateo","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"(Senior) Consultant for Data Science","MHP - A Porsche Company","Information Technology","1001-5000","Atlanta","GA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Johns Hopkins University Applied Physics Laboratory","Aerospace &amp; Defense","5001-10000","Laurel","MD",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Science","Red Ventures","Business Services","1001-5000","Charlotte","NC",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director, Data Science","Lands' End","Retail","5001-10000","Dodgeville","WI",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Product Analyst, Data Science","Google","Information Technology","10000--1","Mountain View","CA",FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Stitch Fix","Retail","5001-10000","San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"VP/Data Science","DigitasLBi","Business Services","5001-10000","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Entry Level Data Scientist","IBM",NA,"10000--1","Chicago","IL",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Stripe","Information Technology","501-1000","San Francisco","CA",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science","Bolt","Finance","1-50","San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Science Engineer","Catalant","Information Technology","51-200","Boston","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Analysis Group","Business Services","201-500","Boston","MA",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","HUB International","Insurance","10000--1","Chicago","IL",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"DATA SCIENCE ANALYST","Harbor Freight Tools","Retail","10000--1","Calabasas","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Marketing Science Analyst","Analytic Partners","Business Services","51-200","Charlottesville","VA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Scientist","23andMe, Inc.","Biotech &amp; Pharmaceuticals","201-500","Mountain View","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Senior Whole Health","Insurance","201-500","Cambridge","MA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Specialist","Essence","Business Services","1001-5000","New York","NY",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Data Science Specialist","GE Digital","Information Technology","1001-5000","San Ramon","CA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Deloitte",NA,"10000--1","Arlington","VA",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Scientist","Oscar Insurance","Insurance","201-500","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"QA Automation Engineer - Data","Chartboost","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Sitecore","Information Technology","501-1000","Sausalito","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Analyst, Senior","Booz Allen Hamilton","Business Services","10000--1","McLean","VA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Advisor, Data Science","LoyaltyOne","Business Services","1001-5000","Chicago","IL",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"ENGINEER - PARTICLE SCIENCE","Southwest Research Institute","Business Services","1001-5000","San Antonio","TX",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","SPINS, LLC","Business Services","201-500","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Two Sigma","Finance","1001-5000","New York","NY",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science & Insights Analyst","Wink","Information Technology","51-200","New York","NY",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Software Developer, Data Integration & ETL","Interset","Information Technology","51-200","Ottawa","IL",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Medical Science Liaison","Veracyte","Biotech &amp; Pharmaceuticals","201-500","Field","NM",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science & Analytics Director","American Family Insurance","Insurance","5001-10000","Madison","WI",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Microsoft","Information Technology","10000--1","Bellevue","WA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Data Scientist","Wheelhouse (California)","Travel &amp; Tourism","1-50","San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Rocket Wagon","Business Services","1-50","Chicago","IL",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","MilliporeSigma","Biotech &amp; Pharmaceuticals","10000--1","Saint Louis","MO",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","GCP Applied Technologies","Manufacturing","1001-5000","Cambridge","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Dataminr","Information Technology","201-500","New York","NY",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Medical Science Liaison, Neurology (North Central US)","Sunovion","Biotech &amp; Pharmaceuticals","1001-5000","Field","NM",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","QuantumBlack","Information Technology","51-200","Boston","MA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","Comlinkdata","Business Services","1-50","Boston","MA",FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Credit Sesame","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Sr. Data Scientist","BOLD","Information Technology","201-500","San Francisco","CA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","SeatGeek","Information Technology","51-200","New York","NY",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","TrueMotion","Information Technology","1-50","Boston","MA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst, Modeling & Algorithms","Marketing Evolution","Business Services","1-50","Rancho Cordova","CA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Machine Learning Data Scientist","Wolverine Trading","Finance","201-500","Chicago","IL",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Sensor Tower","Business Services","1-50","San Francisco","CA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Data Scientist (Remote)","COMPAREX USA","Information Technology","1001-5000","Raleigh","NC",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Science Analytics","Talkable","Business Services","1-50","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Scientist","Conversica","Information Technology","51-200","Seattle","WA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Proofpoint","Information Technology","1001-5000","Draper","UT",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Engineer","Wi-Tronix, LLC","Transportation &amp; Logistics","51-200","Bolingbrook","IL",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Senior Data Scientist","Blue Cross and Blue Shield of North Carolina","Insurance","1001-5000","Charlotte","NC",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Scientist","Backcountry","Retail","501-1000","Park City","UT",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Data Scientist","Yieldbot","Information Technology","51-200","Portland","OR",TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Digital Reasoning","Information Technology","51-200","Nashville","TN",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","SparkCognition","Information Technology","51-200","Austin","TX",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","IntraEdge","Information Technology","501-1000","Phoenix","AZ",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Science Consultant","Slalom LLC.","Business Services","1001-5000","New York","NY",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director, Data Science Engineering","AppNexus","Information Technology","1001-5000","New York","NY",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Science Lab Manager","Florida SouthWestern State College","Education","501-1000","Fort Myers","FL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Uptake","Information Technology","501-1000","Chicago","IL",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist – Multi Asset (LAM)","Lazard Asset Management","Finance","1001-5000","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Analyst, Data Science","Toyota North America","Manufacturing","10000--1","Dallas","TX",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Expedia","Information Technology","10000--1","Bellevue","WA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Data Science Lead","Mathematica Policy Research","Business Services","1001-5000","Washington","DC",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Engineer","Enterprise Solutions Inc","Information Technology","51-200","New Albany","OH",TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Principal Associate, Data Science","Capital One","Finance","10000--1","Plano","TX",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Vettery","Information Technology","51-200","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Medical Science Liaison","Alimera Sciences","Biotech &amp; Pharmaceuticals","51-200","Great Lakes","IL",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Manager","Lyft","Transportation &amp; Logistics","1001-5000","Seattle","WA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science","Brooks Rehabilitation","Health Care","1001-5000","Jacksonville","FL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director of Data Science","Sojern","Business Services","201-500","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","Merck KGaA","Biotech &amp; Pharmaceuticals","10000--1","Saint Louis","MO",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","Quora, Inc.","Information Technology","51-200","Mountain View","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science/Java Developer","Garmin","Manufacturing","10000--1","Olathe","KS",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Hulu","Media","1001-5000","Santa Monica","CA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Junior Quantitative Developer- Data Infrastructure","Akuna Capital","Finance","51-200","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Pure Storage","Information Technology","1001-5000","Mountain View","CA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Analyst - Data Science","Boston Consulting Group","Business Services","10000--1","Los Angeles","CA",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","Nexosis","Information Technology","1-50","Columbus","OH",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Codecademy Advisor: Data Science","Codecademy","Education","1-50","Remote","OR",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","1st Merchant Funding","Finance","1-50","Miami","FL",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Stonebridge","Information Technology","51-200","Tulsa","OK",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Scientific Data Analyst, R&D Information Sciences (RDR17-10) –","FORMA THERAPEUTICS","Biotech &amp; Pharmaceuticals","51-200","Watertown","MA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Java Backend Engineer for Data Science Start-up","OSI Engineering","Business Services","51-200","San Mateo","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Research and Development Engineer (Operations Research/Data Science Engineer)","Penn State University","Education","10000--1","University Park","PA",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director Clinical Pharmacology, Medical Science","Sage Therapeutics","Biotech &amp; Pharmaceuticals","51-200","Cambridge","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Medical Science Liaison (Boston)","T2 Biosystems","Biotech &amp; Pharmaceuticals","51-200","Lexington","MA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Engineer","BigCommerce","Information Technology","201-500","San Francisco","CA",FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Intersys","Information Technology","51-200","Richmond","VA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Senior Big Data Developer","EPAM","Information Technology","10000--1","Seattle","WA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+"High School Science Teacher","Achievement First","Education","1001-5000","Brooklyn","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Systems Specialist","Clever Devices","Information Technology","201-500","Woodbury","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Science Engineer","AVL","Manufacturing","5001-10000","Chelmsford","MA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Manager, Marketing Science","Mindshare","Media","5001-10000","New York State","New York State",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Scientist","INFOX Consulting",NA,"1-50","Seattle","WA",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Analytics Specialist","AutoGravity Corporation","Finance","51-200","Irvine","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Architect","NWEA","Education","501-1000","Portland","OR",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Big Data Engineer","Spire Systems","Business Services","1-50","San Francisco","CA",TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"2VP, Data Solutions Leader","Travelers Companies","Insurance","10000--1","Hartford","CT",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Spring Venture Group","Insurance","201-500","Kansas City","MO",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Big Data Developer – Location Negotiable","Emtec, Inc.","Information Technology","501-1000","United States","United States",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Amazon",NA,"10000--1","Seattle","WA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director of Data Science","Cruise","Manufacturing","51-200","San Francisco","CA",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Cloutera","Business Services","1-50","Seattle","WA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Neuroscience Medical Science Liaison","InVentiv Health","Health Care","10000--1","Dallas","TX",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","ISPA Technology",NA,"51-200","Tampa","FL",TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Eaze Solutions","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","iHerb","Retail","1001-5000","United States","United States",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Modeler","Eliassen Group","Business Services","1001-5000","Chantilly","VA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Scientist","Sonos","Media","1001-5000","Seattle","WA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"analyst, data science","Ovative/group","Business Services","51-200","Minneapolis","MN",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Architect, Life Science Commercial","Saama Technologies Inc","Information Technology","1001-5000","Campbell","CA",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","PKW Associates, Inc",NA,"1-50","Windsor Mill","MD",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Nytec","Information Technology","201-500","San Francisco","CA",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Treselle Systems",NA,"51-200","Campbell","CA",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Quality Analyst","Affinity Health Plan","Insurance","501-1000","United States","United States",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Science Engineer*","3M","Manufacturing","10000--1","Maplewood","MN",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Apple","Information Technology","10000--1","Santa Clara","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","Leidos","Aerospace &amp; Defense","10000--1","Baltimore","MD",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"R&D Computer Science (Experienced)","Sandia National Laboratories","Government","10000--1","Albuquerque","NM",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Coca-Cola Company","Manufacturing","10000--1","Atlanta","GA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Senior Pricing Data Analyst","Kemper","Insurance","5001-10000","Chicago","IL",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","International Software Systems","Information Technology","51-200","Greenbelt","MD",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist..","Akamai","Information Technology","5001-10000","Santa Clara","CA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Sr. Data Analyst, Lending Operations","Renew Financial","Finance","201-500","Alpharetta","GA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Schireson Associates","Business Services","51-200","New York","NY",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Smith Hanley Associates","Business Services","1-50","New York","NY",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Software Engineer - Data Science","Wish","Retail","201-500","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","WattTime",NA,"1-50","Oakland","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Manager of Data Governance","Integrated DNA Technologies","Biotech &amp; Pharmaceuticals","1001-5000","Coralville","IA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Manager - Advanced Analytics","Uber","Information Technology","10000--1","San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Scientist","Pfizer","Biotech &amp; Pharmaceuticals","10000--1","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","LeanTaaS","Health Care","1-50","Santa Clara","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","LexisNexis Legal & Professional","Business Services","201-500","Raleigh","NC",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","USAA","Insurance","10000--1","San Antonio","TX",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Lenovo","Information Technology","10000--1","Raleigh","NC",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Scientist","AIM Consulting Group, LLC","Information Technology","201-500","Minneapolis","MN",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Manager of Data Science","Seneca Resources","Business Services","51-200","Richmond","VA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Clinical Data Scientist","Roam","Information Technology","1-50","San Mateo","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Engineering Manager - Analytics & Data Science","GitHub","Information Technology","501-1000","San Francisco","CA",TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Scientist, Data Science","Moderna Therapeutics","Biotech &amp; Pharmaceuticals","201-500","Cambridge","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE
+"DATA SCIENCE MANAGER","Ultimate Software","Information Technology","1001-5000","United States","United States",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Business Analyst, Data Science","zoom","Information Technology","501-1000","San Jose","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Science Specialist","Eaton","Manufacturing","10000--1","Southfield","MI",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Statistician","Western & Southern Financial Group","Insurance","1001-5000","Cincinnati","OH",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Sr. Data Scientist, Baseball Data","MLB Advanced Media","Information Technology","501-1000","New York","NY",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE
+"Senior Manager, Data Science","eBay",NA,"10000--1","San Jose","CA",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Science Specialist","Clover Global Solutions LP","Business Services","201-500","United States Air Force Acad","CO",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Clinical Data and Supply Manager","US WorldMeds","Biotech &amp; Pharmaceuticals","51-200","Louisville","KY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Adobe","Information Technology","10000--1","San Jose","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Analytics Engineer","R2Integrated","Business Services","51-200","Baltimore","MD",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","Kimberly-Clark Corporation","Manufacturing","10000--1","Neenah","WI",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist - Entry/Mid-Level","NSA","Government","10000--1","Fort Meade","MD",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Management","Oklahoma Department of Corrections","Government","1001-5000","Oklahoma City","OK",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Signature Science","Business Services","51-200","Arlington","VA",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director, Data Science","Bayer","Biotech &amp; Pharmaceuticals","10000--1","Whippany","NJ",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Snapchat","Information Technology","1001-5000","Los Angeles","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Head of Data Science","Color Genomics","Information Technology","51-200","Burlingame","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Solutions Architect","DeVry University","Education","1001-5000","Downers Grove","IL",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Fourth Technologies","Business Services","51-200","Cleveland","OH",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director, Data Science","iRhythm","Health Care","501-1000","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science-Machine Learning Specialist","ManTech International Corporation","Information Technology","5001-10000","Alexandria","VA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Sr. Investigator, Data Science","Sutter Health","Health Care","10000--1","Walnut Creek","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","Franklin Energy","Oil, Gas, Energy &amp; Utilities","501-1000","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Senior Data Analyst","Bankers Healthcare Group","Finance","201-500","Davie","FL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Scientist","KPMG","Accounting &amp; Legal","10000--1","Denver","CO",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Cambia Health Solutions","Health Care","5001-10000","Portland","OR",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","CDW","Information Technology","5001-10000","Lincolnshire","IL",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Director, Data Science","MINDBODY, Inc","Information Technology","1001-5000","San Luis Obispo","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Analytics and Data Science Lead","Aira",NA,"-1-0","San Diego","CA",FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Scientist","Snap Inc.","Information Technology","1001-5000","Los Angeles","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","L.A. Care Health Plan","Health Care","1001-5000","Los Angeles","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Sr. Developer, Data Science Integration","Comcast","Telecommunications","10000--1","Philadelphia","PA",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Crossover","Business Services","501-1000","Austin","TX",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","KPMG US","Accounting &amp; Legal","10000--1","Irvine","CA",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Manager of Data Science","Maxpoint","Information Technology","201-500","Morrisville","NC",FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Andiamo","Restaurants, Bars &amp; Food Services","201-500","New York","NY",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","PopCap Games","Media","51-200","California","California",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Science Analyst","Cypress HCM","Business Services","51-200","El Segundo","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Scientist","Maxm Cloud LLC",NA,"51-200","Boston","MA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Science Engineer","Davidson Technologies Inc.","Manufacturing","201-500","Reston","VA",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Software Engineer / Data Production Team","ZoomInfo","Information Technology","51-200","Waltham","MA",TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Halfaker and Associates","Information Technology","201-500","Arlington","VA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","KAYAK","Travel &amp; Tourism","501-1000","Cambridge","MA",TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Big Data Manager II","Ascension",NA,"10000--1","Austin","TX",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Analyst for the People Team","Pivotal Software","Information Technology","1001-5000","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Lead Data Scientist","Acxiom","Information Technology","1001-5000","Redwood City","CA",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Progrexion Marketing","Business Services","1001-5000","Salt Lake City","UT",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","Astreya Partners","Information Technology","501-1000","Mountain View","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Business Analyst, Data Science • San Jose • Data Science • Intermediate","Zoom Video Communications","Information Technology","501-1000","Overland Park","KS",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Scientist","BAE Systems","Aerospace &amp; Defense","10000--1","Springfield","VA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Citibank","Finance","5001-10000","Long Island City","NY",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Retail Solutions","Business Services","201-500","Mountain View","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Software Solutions Architect - Data Science","84.51°","Business Services","501-1000","Cincinnati","OH",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Nissan North America","Manufacturing","10000--1","Franklin","TN",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","LendUp","Finance","201-500","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","University of Massachusetts Medical School","Education","10000--1","Worcester","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"CLINICAL DATA MANAGER","ImmunoGen","Biotech &amp; Pharmaceuticals","201-500","Waltham","MA",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Walmart eCommerce","Information Technology","1001-5000","San Bruno","CA",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Specialist","Accenture",NA,"10000--1","San Diego","CA",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Associate Data Science and Analytics","Aquent","Business Services","5001-10000","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Data Science Analyst","Aetna Inc.","Insurance","10000--1","New York","NY",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director/Associate Director, Translational Science Lead for Cardiovascular Metabolic Diseases","NGM Biopharmaceuticals","Biotech &amp; Pharmaceuticals","51-200","South San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Engineer","NJF Global Holdings","Business Services","51-200","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Head of Data Science & Product Analytics","Pinterest","Information Technology","1001-5000","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Cisco Systems","Information Technology","10000--1","San Jose","CA",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Manager, Data Science","JBCConnect","Business Services","1-50","Tampa","FL",FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Grammarly","Consumer Services","51-200","San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Amazon Web Services, Inc.",NA,"10000--1","Palo Alto","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Medical Science Liaison ~ Ophthalmology, (West Coast)","Santen Inc","Biotech &amp; Pharmaceuticals","51-200","Emeryville","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Grindr","Information Technology","51-200","Los Angeles","CA",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Engineering Manager, Data Science","PagerDuty","Information Technology","201-500","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Associate Data Science and Analytics","Two95 International Inc.","Business Services","1-50","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Security Data Science Engineer","Workday","Information Technology","5001-10000","Pleasanton","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","EcoSense Lighting","Manufacturing","51-200","Los Angeles","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Consultant","Blue Cross Blue Shield of Illinois","Insurance","10000--1","Chicago","IL",TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"7th Grade Science Teacher","Ascend Charter Schools","Education","201-500","Brooklyn","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Group Manager Data Analytics & Science","Intuit","Information Technology","5001-10000","Mountain View","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Ibotta","Information Technology","201-500","Denver","CO",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Huawei Technologies","Telecommunications","10000--1","Santa Clara","CA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director of Data Science","BeyondCurious","Business Services","1-50","Los Angeles","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Science Engineer","dataxu","Information Technology","201-500","Boston","MA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Game Data Analyst","Cryptic Studios","Media","51-200","Los Gatos","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Director, Global Health Science-Infectious Disease","The Medicines Company","Biotech &amp; Pharmaceuticals","201-500","Nashville","TN",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Rotational Program - January 2018 Cohort","Verisk Analytics","Business Services","5001-10000","United States","United States",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Scientist","Point72","Finance","1001-5000","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Comprehensive Resources Inc","Business Services","1-50","Brooklyn","NY",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Research Engineer - Data Science","Porter & Chester Institute","Education","501-1000","Arlington","VA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Associate Director, Data Science & Analytics","Sapient","Information Technology","10000--1","Chicago","IL",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","Dealer Tire","Business Services","501-1000","Cleveland","OH",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Warehouse Engineer","Avvo","Accounting &amp; Legal","201-500","Seattle","WA",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
+"Data Science Manager","Twitch","Media","501-1000","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Engineer","Lake Trust Credit Union","Finance","201-500","United States","United States",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Science Engineer","OpenTable","Information Technology","501-1000","San Francisco","CA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Operations Engineer (DOE)","Gracenote","Information Technology","1001-5000","Emeryville","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","JobJuncture","Business Services","1001-5000","Moline","IL",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Planned Systems International","Information Technology","201-500","Arlington","VA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Engineer","Revinate","Information Technology","51-200","San Francisco","CA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Director of Data Science","Cratejoy","Information Technology","1-50","Austin","TX",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Engineer","Payette Group","Business Services","1-50","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"BI Data Architect","Uncommon","Information Technology","1-50","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Sciences Manager","Capital Group","Finance","5001-10000","Irvine","CA",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Founding High School Science Teacher (18-19 school year)","Hiawatha Academies","Education","201-500","Minneapolis","MN",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Honeywell","Information Technology","10000--1","Atlanta","GA",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE
+"Data Science Manager, Analytics","Corning","Manufacturing","10000--1","Corning","NY",TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Engineer","Western National Insurance","Insurance","501-1000","Edina","MN",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Lead","Summit Consulting","Business Services","51-200","Washington","DC",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Engineer","PeopleAdmin","Education","201-500","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE
+"Data Scientist","Altamira Technologies","Information Technology","201-500","Alexandria","VA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Science Teacher 2017","Phoenix Charter Academy","Education","51-200","Springfield","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist, Advanced Analytics","LogRhythm","Information Technology","501-1000","Boulder","CO",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","ebay",NA,"10000--1","Brisbane","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
+"Head of Data Science and Machine Learning","Calico",NA,"1-50","South San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Booz Allen Hamilton Inc.","Business Services","10000--1","Honolulu","HI",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Analyst - Entry Level","Auto-Owners Insurance","Insurance","1001-5000","Lansing","MI",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","NextEra Energy, Inc.","Oil, Gas, Energy &amp; Utilities","10000--1","Saint Paul","MN",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Big Data Architect","Farmers Edge","Agriculture &amp; Forestry","201-500","Minneapolis","MN",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE
+"Data Science Analyst","PetCo","Retail","10000--1","San Diego","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director Data Science Analytics","Morrison & Foerster","Accounting &amp; Legal","1001-5000","San Francisco","CA",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","GroupM","Media","10000--1","New York","NY",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Manager, Analytics and Data Science","State of North Carolina","Government","10000--1","Raleigh","NC",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","Care.com","Information Technology","501-1000","Waltham","MA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Senior Data Infrastructure Architect","Quotient Technology Inc.","Business Services","501-1000","Mountain View","CA",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","BEA Systems","Information Technology","1001-5000","Aurora","CO",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Senior Specialist","Merck & Co., Inc.","Health Care","10000--1","Austin","TX",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Principal Software Engineer (Data Science), Sequencing","Information Technology & Healthcare Staffing","Business Services","201-500","Santa Clara","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Manager, Data Analysis Software, Sequencing","Roche","Biotech &amp; Pharmaceuticals","10000--1","Santa Clara","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Secondary Science Teacher, 2017-2018 School Year","Connections Academy","Education","501-1000","Iowa","Iowa",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Vitamin T","Business Services","51-200","Framingham","MA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","Dentsu Aegis Network","Media","5001-10000","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Vice President, Data Sciences Ops","Change Healthcare","Health Care","10000--1","San Mateo","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Cylance Inc.","Information Technology","501-1000","Portland","OR",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Novetta","Information Technology","501-1000","Herndon","VA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Center Site Director","QTS","Information Technology","501-1000","Fort Worth","TX",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","ProKarma","Information Technology","1001-5000","Seattle","WA",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Cameron Craig Group","Business Services","1-50","Moline","IL",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"CCB Risk - Data Scientist Fraud Analytics – Vice President","Chase","Finance","10000--1","Columbus","OH",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Instructor","General Assembly","Education","501-1000","San Francisco","CA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Engineer","pymetrics","Information Technology","1-50","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","BioReliance","Biotech &amp; Pharmaceuticals","501-1000","Saint Louis","MO",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Fabergent USA","Information Technology","51-200","Chicago","IL",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Architect (Architect level)","West Monroe Partners","Business Services","501-1000","Dallas","TX",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE
+"Data Scientist","AgilOne","Information Technology","51-200","San Francisco","CA",FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","PROS","Information Technology","1001-5000","Houston","TX",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Specialist","PCO Innovation","Information Technology","10000--1","Boston","MA",TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science and Analytics Director","DW Simpson & Company","Business Services","51-200","Wisconsin","Wisconsin",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Developer","Occidental Petroleum","Oil, Gas, Energy &amp; Utilities","10000--1","Houston","TX",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Science Manager","Turo","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","University of Chicago","Education","10000--1","Chicago","IL",FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","SpotXchange","Information Technology","201-500","Broomfield","CO",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","comScore","Business Services","1001-5000","New York","NY",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Simpli FI","Business Services","51-200","Fort Worth","TX",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Engineer - C# (Predictive Analytics Group)","Schneider Electric","Oil, Gas, Energy &amp; Utilities","10000--1","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","The Morning Consult, LLC","Business Services","1-50","Washington","DC",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+"Data Scientist","Concur Technologies","Information Technology","1001-5000","Bellevue","WA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Valiantica Inc","Consumer Services","1-50","San Jose","CA",TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Sr. Data Engineer","Earnest","Finance","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Eaze","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Meetup","Information Technology","51-200","New York","NY",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Databricks","Information Technology","51-200","San Francisco","CA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Manager, Decision Science","Navihealth","Health Care","501-1000","Brentwood","TN",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Ascena Retail Group","Retail","10000--1","Pataskala","OH",FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Software Engineer & Data Science Specialist","The Aerospace Corporation","Business Services","1001-5000","El Segundo","CA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE
+"Director of Data Science Engineering - Python","Huxley Associates","Business Services","201-500","New York","NY",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Consultant!","SaveSoft, Inc",NA,"1-50","Williamsburg","VA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director, Data Science and Biostatistics","Boston Scientific","Manufacturing","10000--1","Valencia","CA",FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","ThousandEyes","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Senior Data Engineer, Data Science","Medidata Solutions","Information Technology","1001-5000","San Francisco","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist - Samsung Pay Data Science Team","Samsung Research America","Information Technology","1001-5000","Mountain View","CA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE
+"Data Architect","Raytheon","Aerospace &amp; Defense","10000--1","Dulles","VA",TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Evangelist","Domino Data Lab","Information Technology","51-200","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Customer Experience Data Analyst","Banner Health","Health Care","10000--1","Phoenix","AZ",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Scientist","Domo","Information Technology","501-1000","American Fork","UT",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director, Data Science","Integral Ad Science","Information Technology","201-500","New York","NY",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Research Scientist-Data Sciences","Eli Lilly and Company","Biotech &amp; Pharmaceuticals","10000--1","Cambridge","MA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Science - Machine Learning","Navitas Business Consulting Inc.","Information Technology","51-200","Washington","DC",TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Science","Udemy","Education","201-500","South San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Engineer","UPMC","Health Care","10000--1","Pittsburgh","PA",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Senior Data Science and Analytics.","Starpoint Solutions","Business Services","501-1000","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Data Science Strategist, Mobile Partnerships","Facebook","Information Technology","10000--1","Menlo Park","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Science Specialist","Extreme Networks","Information Technology","1001-5000","Salem","NH",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+"Data Scientist","GoGuardian","Education","51-200","El Segundo","CA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+"DATA SCIENCE ANALYST III","Mount Sinai Health System","Health Care","10000--1","New York","NY",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Science Solutions Architect","Catapult Systems","Information Technology","201-500","Austin","TX",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Science","NCSA","Arts, Entertainment &amp; Recreation","501-1000","Chicago","IL",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Hired by Matrix, Inc.","Business Services","201-500","Union","NJ",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","HealthLoop","Information Technology","1-50","Mountain View","CA",FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","Beyond Finance","Finance","51-200","Boston","MA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","Marathon Oil","Oil, Gas, Energy &amp; Utilities","1001-5000","Oklahoma City","OK",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","NxT Level",NA,"1-50","Seattle","WA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","HIRECLOUT","Business Services","1-50","Santa Ana","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Engineer - Senior Consultant (Vertica Data Engineer)","Clarity Insights","Information Technology","201-500","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Manager, Data Science","Castlight Health","Information Technology","201-500","San Francisco","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Science Teacher-IMMEDIATE OPENING","Mastery Charter School","Education","51-200","Philadelphia","PA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Scientist","Sift Science","Information Technology","51-200","Seattle","WA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Entry Clerk","Fenwick & West","Accounting &amp; Legal","501-1000","Williston","ND",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Quantum Reservoir Impact","Oil, Gas, Energy &amp; Utilities","51-200","Houston","TX",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Manager Data Science","Esurance","Insurance","1001-5000","San Francisco","CA",TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Metroplus Health Plan","Health Care","1001-5000","New York","NY",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","BANDAI NAMCO Entertainment","Arts, Entertainment &amp; Recreation","51-200","San Jose","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Senior Data & Reporting Analyst","Covance","Biotech &amp; Pharmaceuticals","10000--1","Princeton","NJ",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"UR - R&D Data Science Engineer","3M Companies","Manufacturing","10000--1","Maplewood","MN",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","CitiGroup","Finance","10000--1","Long Island City","NY",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Credit Karma","Finance","501-1000","San Francisco","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","GDIT","Information Technology","10000--1","Springfield","VA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Adjunct Faculty-Data Science","Worcester Polytech","Education","1001-5000","Worcester","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Service Delivery Manager Data Science","Novartis","Biotech &amp; Pharmaceuticals","10000--1","East Hanover","NJ",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Platform Manager","Direct Supply","Manufacturing","501-1000","Milwaukee","WI",TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director, Data Science and Business Intelligence","Highmark Health","Health Care","10000--1","Pittsburgh","PA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Faculty in Data Science","Rice University","Education","1001-5000","Houston","TX",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Science Engineer","Davidson Technologies","Manufacturing","201-500","Reston","VA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Engineer","Pymetrics","Information Technology","1-50","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Research Director - Data Science","Invincea","Information Technology","51-200","Arlington","VA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Manager","Grubhub","Information Technology","1001-5000","Chicago","IL",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Savi Technology","Information Technology","51-200","Alexandria","VA",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE
+"Data Science Engineer","CKM Advisors","Business Services","1-50","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Head of Analytics & Data Science","Betterment","Finance","51-200","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Assistant Professor in Data Science","AcademyHealth","Business Services","1-50","Auburn University","AL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist Engineer","KeyW","Aerospace &amp; Defense","1001-5000","United States","United States",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Architect","PeopleNTech","Information Technology","1-50","Atlanta","GA",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Activehours","Information Technology","1-50","Palo Alto","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Nielsen",NA,"10000--1","Columbia","MD",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Data Support Specialist","The Great Basin Institute",NA,"51-200","Joshua Tree","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Assistant Professor of Data Science in Biology or Marine Science","University of Hawaii at Hilo","Education","5001-10000","Hilo","HI",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Averity","Business Services","1-50","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Foursquare","Information Technology","51-200","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Platform Data Engineer","FastPay","Information Technology","1-50","Los Angeles","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","[24]7","Business Services","10000--1","United States","United States",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Science Specialist","Merck","Health Care","10000--1","Austin","TX",FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Science Program Manager","Wayfair LLC","Retail","5001-10000","Boston","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Engineer","Aircell","Telecommunications","201-500","Chicago","IL",FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science & Analytics Director","Relevante","Business Services","51-200","Madison","WI",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Engineer","HealthTap","Information Technology","51-200","San Francisco","CA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","JetSmarter","Travel &amp; Tourism","201-500","Fort Lauderdale","FL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","springML","Information Technology","1-50","Pleasanton","CA",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Medical Science Liaison, North and South Carolina","Pharmacyclics","Biotech &amp; Pharmaceuticals","501-1000","Sunnyvale","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","CitiMortgage","Finance","10000--1","Long Island City","NY",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Dean, School of Science, Technology, Engineering, and Mathematics (STEM)","American Public University System","Education","201-500","Charles Town","WV",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","RELX Group","Media","10000--1","Raleigh","NC",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Head Data Engineering & Science","Sanofi U.S.","Biotech &amp; Pharmaceuticals","5001-10000","Cambridge","MA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","SAP","Information Technology","10000--1","Palo Alto","CA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"C++ Market Data Feeds Developer","STEVENS CAPITAL MANAGEMENT LP","Finance","51-200","Radnor","PA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Fooda","Information Technology","1-50","Chicago","IL",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","s•com","Restaurants, Bars &amp; Food Services","51-200","Charlotte","NC",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Associate Data Science Consultant","Duke Energy Corporation","Oil, Gas, Energy &amp; Utilities","10000--1","Charlotte","NC",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Director of Data Science","Alliance Data","Business Services","10000--1","Atlanta","GA",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Manager, Data Science","National Geographic Channel","Media","1001-5000","Washington","DC",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Director Actuarial and Data Sciences","Merck and Co.","Health Care","10000--1","Rahway","NJ",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Pluralsight","Education","201-500","Boston","MA",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Data Scientist","About","Information Technology","201-500","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Analyst","Group O","Business Services","1001-5000","San Antonio","TX",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+"Senior / Lead Data Science","LT",NA,"51-200","Los Angeles","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Science","Harvard University","Education","10000--1","Boston","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Analyst","HC-One","Health Care","5001-10000","Darlington","SC",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Sales Engineer for Data Science","Dataiku","Information Technology","1-50","United States","United States",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Director, Data Science","Beachbody, LLC","Consumer Services","1001-5000","Santa Monica","CA",TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Sr. Data Analyst - Data Science Team","Seismic","Information Technology","201-500","San Diego","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Product Director, Data Science","Wolters Kluwer","Information Technology","10000--1","Chicago","IL",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"VP BioInformatics and Data Science","SerImmune",NA,"1-50","Santa Barbara","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Engineer","VillageMD","Health Care","51-200","Glen Allen","VA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Analyst-Reports Writer, Tableau, SSRS/SSIS","Carroll Hospital Center","Health Care","1001-5000","Westminster","MD",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Manager, Data Science & Analytics","NBC Universal","Media","10000--1","New York","NY",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Big Data Engineer","United Airlines",NA,"10000--1","Houston","TX",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","CALNET","Information Technology","201-500","Saint Louis","MO",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Consulting Manager","Plante Moran","Accounting &amp; Legal","1001-5000","Southfield","MI",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Scientist","Alkermes","Biotech &amp; Pharmaceuticals","1001-5000","United States","United States",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Manager of Data Science","Oportun. Inc","Finance","1001-5000","Frisco","TX",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","UMass Medical School","Education","10000--1","Worcester","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Capgemini","Information Technology","10000--1","New York","NY",FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","Trinity Health Corporation","Health Care","10000--1","Livonia","MI",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Berico Technologies","Aerospace &amp; Defense","51-200","Gaithersburg","MD",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Engineer","INgrooves Music Group","Media","51-200","Los Angeles","CA",FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE
+"Data Scientist","CACI International","Information Technology","10000--1","Charlottesville","VA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Customer Data Scientist / Solution Architect","h2o.ai","Information Technology","51-200","San Francisco","CA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Tesco","Retail","10000--1","Shire","TX",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Babson Capital Management","Finance","1001-5000","Boston","MA",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Engineer","Wealthfront","Finance","51-200","Redwood City","CA",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Engineer","Klaviyo","Information Technology","51-200","Boston","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","adMarketplace","Business Services","51-200","New York","NY",FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Analyst - Associate Director","Barings LLC","Finance","-1-0","Charlotte","NC",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Program Lead","AbbVie","Biotech &amp; Pharmaceuticals","10000--1","Redwood City","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data/Decision Science Analyst","Cardinal Health","Business Services","10000--1","Brentwood","TN",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Systems Engineer","Micron Technology, Inc.","Manufacturing","10000--1","Boise","ID",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Science Developer - Analytics Center of Excellence","Quintiles Inc.","Health Care","10000--1","Durham","NC",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Software Developers - Data Analytics Engineer","Solidyn Solutions, Inc.","Aerospace &amp; Defense","51-200","Colorado","Colorado",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Product Director, Data Science","DataRobot","Information Technology","51-200","Boston","MA",TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Science, Ad-Tech","Dailymotion","Information Technology","201-500","New York","NY",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Unified","Information Technology","51-200","New York","NY",FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Analyst I-II, Data Science","Health Services Advisory Group","Health Care","501-1000","Denver","CO",FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Engineer - Eden Prairie, MN or Telecommute","UnitedHealth Group","Health Care","10000--1","Eden Prairie","MN",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Sr. Cyber Security Data Science Operations Analyst","SunAmerica Affordable Housing Partners","Finance","10000--1","Reston","VA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Associate Data Science Consultant","Duke Energy","Oil, Gas, Energy &amp; Utilities","10000--1","United States","United States",TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Sr. Cyber Security Data Science Operations Analyst","AIG","Insurance","10000--1","Reston","VA",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Qventus","Information Technology","1-50","Mountain View","CA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Assistant Professor in Statistics/Data Science (TT) - Mathematics and Statistics - University of Massachusetts","The University of Massachusetts Amherst","Education","10000--1","Amherst","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Lead - ERP Implementation","Cummins","Manufacturing","10000--1","Indianapolis","IN",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Associate","Brown University","Education","501-1000","Providence","RI",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","EMC","Information Technology","10000--1","Hopkinton","MA",FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE
+"Data Engineer","Citadel","Finance","1001-5000","Chicago","IL",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Lead Data Science","Roku","Information Technology","501-1000","Los Gatos","CA",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Director, Data Science","Conversant","Business Services","1001-5000","Chicago","IL",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","InCadence Strategic Solutions","Information Technology","51-200","Manassas","VA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Computer Science","US Army",NA,"10000--1","Natick","MA",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Senior Data Engineer","Intent Media","Information Technology","51-200","New York","NY",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"e-Discovery Data Analyst","Whitaker Companies","Business Services","1-50","Houston","TX",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+"DATA SCIENTIST","Object Computing","Information Technology","51-200","Saint Louis","MO",TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE
+"Healthcare & Life Sciences – Data Scientist","KPMG International","Accounting &amp; Legal","10000--1","Atlanta","GA",TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE
+"Scientist, Data Sciences","Johnson & Johnson","Biotech &amp; Pharmaceuticals","10000--1","Spring House","PA",FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Science Leadership Opportunity - AVP","The Hartford","Insurance","10000--1","Hartford","CT",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","WellCare","Insurance","5001-10000","Tampa","FL",FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE
+"Director of Data Science and Analytics","UNC Chapel Hill","Education","10000--1","Chapel Hill","NC",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+"Data Science Analyst","PETCO","Retail","10000--1","San Diego","CA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Data Scientist","Spectrum","Telecommunications","10000--1","Arapahoe","CO",TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE
+"Data Scientist","Chubb Corp","Insurance","10000--1","Whitehouse Station","NJ",TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE
+"Director of Data Science","Prime Team Partners","Business Services","1-50","Bellevue","WA",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
