@@ -273,9 +273,9 @@ write.csv(glass_data, "glass_fulldata.csv",row.names = F)
 #  dice_fulldata <- read.csv("~/Desktop/advdatascience/data/dice/4dice_fulldata.csv")
 # glass_fulldata <- read.csv("~/Desktop/advdatascience/data/glass/4glass_fulldata.csv")
 
-stack_fulldata <- read.csv("stack_fulldata.csv")
- dice_fulldata <- read.csv("dice_fulldata.csv")
-glass_fulldata <- read.csv("glass_fulldata.csv")
+stack_fulldata <- read.csv(file.path("data", "stack_fulldata.csv"))
+dice_fulldata <- read.csv(file.path("data", "dice_fulldata.csv"))
+glass_fulldata <- read.csv(file.path("data", "glass_fulldata.csv"))
 
 
 stack_fulldata$source <- "Stackoverflow"
